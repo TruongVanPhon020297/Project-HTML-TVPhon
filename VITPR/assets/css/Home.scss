@@ -259,4 +259,93 @@ body {
             }
         }
     }
+    .findus {
+        width: 100%;
+        height: 600px;
+        background: #333333;
+        display: flow-root;
+        color: #ffffff;
+        h1 {
+            margin: 30px auto;
+            width: 178px;
+            color: white;
+            font-size: 48px;
+            border-bottom: 3px solid white;
+        }
+        &--info{
+            width: 50%;
+            height: 100%;
+            float: left;
+            box-sizing: border-box;
+            padding-left: 160px;
+            &--contact {
+                h5 {
+                    font-size: 16px;
+                }
+                p {
+                    span {
+                        margin-left: 10px;
+                    }
+                }
+            }
+            &--opening{
+                h5 {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+            }
+            &--connect{
+                h5 {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+                ul {
+                    padding: 0;
+                    li {
+                        list-style: none;
+                        float: left;
+                        margin-right:10px;
+                        a {
+                            color: white;
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        &--map{
+            width: 50%;
+            height: 100%;
+            float: left;
+            iframe {
+                width: 500px;
+                height: 350px;
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+        height: 50px;
+        background: #333333;
+        display: flow-root;
+        color: white;
+        border-top: 1px solid white;
+        &--left {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+            padding-left: 160px;
+            p {
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+        &--right {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+            padding-left: 160px;
+        }
+    }
 }
