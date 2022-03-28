@@ -169,7 +169,7 @@ body .about--lorem h3 {
 body .food-order {
   width: 100%;
   height: 100%;
-  background: url("/assets/img/big_img.jpg");
+  background: url(/Project-HTML-TVPhon/VITPR/assets/img/big_img.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   display: flow-root;
@@ -243,7 +243,7 @@ body .restaurant--image img {
 }
 
 body .reservation {
-  background-image: url(/assets/img/big_img_res.jpg);
+  background-image: url(/Project-HTML-TVPhon/VITPR/assets/img/big_img_res.jpg);
   background-size: 100%;
   height: 729px;
   background-repeat: no-repeat;
